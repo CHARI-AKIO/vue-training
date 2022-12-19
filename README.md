@@ -13,23 +13,30 @@ vue を使ってどんなことができるのか、実際にコードを書き�
 - ## [node.js](https://nodejs.org/ja/)
   ![nodetop](./readmeimg/nodejs_org_ss.png)
   `18.12.1LTS`をダウンロードすると良いです。(2022/12/16 執筆現在)
+  
+  基本的にNode.jsは偶数バージョンが安定版になるので偶数バージョンをダウンロードしましょう。
 
 node.js をインストールしたらパッケージマネージャーをアップデートする必要があったりなかったりするのでバージョンを確認して
 
-`npm --version`
+```
+npm --version
+```
 
 アップデートを行いましょう。
 
-`npm update -g npm`
+```
+npm update -g npm
+```
 
 コマンドプロンプトでカレントディレクトリを`vue-trainning`にし
-パッケージをダウンロード
+パッケージをダウンロードしてビルド。
+```
+npm install
 
-`npm install`
+npm run dev
+```
 
-`npm run dev`
-
-でビルドし開発サーバーを立てることができます。
+開発サーバーをたてることができます。
 
 ---
 
